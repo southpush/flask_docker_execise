@@ -1,23 +1,41 @@
-FROM jenkins:2.60.3
+FROM jenkins/jenkins:lts
 
 USER root
-RUN echo "deb http://apt.dockerproject.org/repo debian-jessie main"\
-    > /etc/apt/sources.list.d/docker.list \
-    && apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 \
-        --recv-keys 58118E89F3A912897C070ADBF76221572C52609D \
-    && apt-get update \
-    && apt-get install -y apt-transport-https \
-    && apt-get install -y sudo \
-    && apt-get install -y docker-engine \
+
+# 替换镜像源
+COPY sources.list /
+RUN cat /sources.list > /etc/apt/sources.list
+
+# step 1: 安装必要的一些系统工具
+RUN apt-get update \
+    && apt-get -y install \
+        apt-transport-https \
+        ca-certificates \
+        sudo \
+        curl \
+        software-properties-common
+# step 2: 安装GPG证书
+RUN curl -fsSL http://mirrors.aliyun.com/docker-ce/linux/debian/gpg | sudo apt-key add -
+# Step 3: 写入软件源信息
+RUN add-apt-repository "deb [arch=amd64] http://mirrors.aliyun.com/docker-ce/linux/debian $(lsb_release -cs) stable"
+# Step 4: 更新并安装Docker-CE
+RUN apt-get -y update \
+    &&  apt-get -y install docker-ce \
     && rm -rf /var/lib/apt/lists/*
 
+# 执行sudo时不需要输入密码
 RUN echo "jenkins ALL=NOPASSWD: ALL" >> /etc/sudoers
 
+# 从github中下载docker-compose二进制安装文件
+# 添加可执行权限
 RUN curl -L https://github.com/docker/compose/releases/download/1.25.0/\
     docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose; \
     chmod +x /usr/local/bin/docker-compose
 
+# 切换用户
 USER jenkins
 
+# 安装插件
 COPY plugins.txt /usr/share/jenkins/plugins.txt
-RUN /usr/local/bin/plugins.sh /usr/share/jenkins/plugins.txt
+RUN /usr/local/bin/install-plugins.sh < /usr/share/jenkins/plugins.txt \
+    && echo 2.0 > /usr/share/jenkins/ref/jenkins.install.UpgradeWizard.state
