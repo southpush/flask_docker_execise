@@ -45,8 +45,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+            <state relative-caret-position="360">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -54,7 +54,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/identijenk/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
+            <state relative-caret-position="38">
               <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
             </state>
           </provider>
@@ -104,7 +104,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="215" />
     <option name="y" value="39" />
     <option name="width" value="1653" />
@@ -175,6 +175,7 @@
       <deployment type="dockerfile">
         <settings>
           <option name="buildCliOptions" value="" />
+          <option name="buildOnly" value="true" />
           <option name="command" value="" />
           <option name="containerName" value="" />
           <option name="entrypoint" value="" />
@@ -275,12 +276,12 @@
       <workItem from="1574873669734" duration="863000" />
       <workItem from="1574952692572" duration="9962000" />
       <workItem from="1575008131797" duration="10708000" />
-      <workItem from="1575705614070" duration="7782000" />
+      <workItem from="1575705614070" duration="8358000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68813000" />
+    <option name="totallyTimeSpent" value="69389000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -292,7 +293,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="749" y="47" width="1653" height="1032" extended-state="0" />
+    <frame x="215" y="39" width="1653" height="1032" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15881984" />
@@ -305,7 +306,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32932165" />
-      <window_info anchor="bottom" id="Docker" order="7" weight="0.5902004" />
+      <window_info active="true" anchor="bottom" id="Docker" order="7" visible="true" weight="0.39420936" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -387,7 +388,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/identijenk/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
+        <state relative-caret-position="38">
           <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
         </state>
       </provider>
@@ -401,8 +402,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        <state relative-caret-position="360">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
