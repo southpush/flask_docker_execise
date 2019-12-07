@@ -13,7 +13,7 @@ services:
       - redis
 
   dnmonster:
-    image: amount/dnmonster:1.0
+    image: amouat/dnmonster:1.0
 
   redis:
     image: redis:5.0.7-buster
