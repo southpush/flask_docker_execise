@@ -26,11 +26,10 @@ RUN apt-get -y update \
 # 执行sudo时不需要输入密码
 RUN echo "jenkins ALL=NOPASSWD: ALL" >> /etc/sudoers
 
-# 从github中下载docker-compose二进制安装文件
-# 添加可执行权限
-RUN curl -L https://github.com/docker/compose/releases/download/1.25.0/\
-    docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose; \
-    chmod +x /usr/local/bin/docker-compose
+# 安装docker-compose
+RUN curl -L https://github.com/docker/compose/releases/download/1.25.1-rc1/docker-compose-`uname -s`-`uname \
+    -m` -o /usr/local/bin/docker-compose \
+    && chmod +x /usr/local/bin/docker-compose
 
 # 切换用户
 USER jenkins
