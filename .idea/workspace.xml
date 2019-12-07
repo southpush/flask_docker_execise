@@ -45,8 +45,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+            <state relative-caret-position="192">
+              <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -105,8 +105,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="134" />
-    <option name="y" value="18" />
+    <option name="x" value="215" />
+    <option name="y" value="39" />
     <option name="width" value="1653" />
     <option name="height" value="1032" />
   </component>
@@ -275,12 +275,12 @@
       <workItem from="1574873669734" duration="863000" />
       <workItem from="1574952692572" duration="9962000" />
       <workItem from="1575008131797" duration="10708000" />
-      <workItem from="1575705614070" duration="7137000" />
+      <workItem from="1575705614070" duration="7782000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68168000" />
+    <option name="totallyTimeSpent" value="68813000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -292,7 +292,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="134" y="18" width="1653" height="1032" extended-state="0" />
+    <frame x="749" y="47" width="1653" height="1032" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15881984" />
@@ -401,8 +401,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        <state relative-caret-position="192">
+          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
         </state>
       </provider>
     </entry>
