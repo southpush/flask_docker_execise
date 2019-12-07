@@ -15,4 +15,4 @@ EXPOSE 5000 9090 9191
 USER uwsgi
 
 # uwsgi --http 0.0.0.0:9090 --wsgi-file /app/app.py --callable app --stats 0.0.0.0:9191
-CMD ["/cmd.sh"]
+CMD ["sudo /cmd.sh"]
