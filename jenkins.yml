@@ -1,0 +1,19 @@
+# 生产版本
+version: '3'
+
+services:
+  identidock:
+    build: .
+    expose:
+      - "9090"
+    environment:
+      ENV: PROD
+    links:
+      - dnmonster
+      - redis
+
+  dnmonster:
+    image: amount/dnmonster:1.0
+
+  redis:
+    image: redis:5.0.7-buster
