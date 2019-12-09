@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -e
-echo "hello in bash"
+echo $ENV
 
 if [ "$ENV" = 'DEV' ]; then
     echo "Running Development Server"
