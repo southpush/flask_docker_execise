@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fd8f100-8831-4252-885c-01d48eb05c1c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,7 +22,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
+            <state relative-caret-position="720">
               <caret line="34" selection-start-line="34" selection-end-line="34" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
@@ -42,11 +43,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="480">
+              <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cmd.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -54,17 +64,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/identijenk/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jenkins.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="140">
+              <caret line="39" column="76" lean-forward="true" selection-start-line="39" selection-start-column="76" selection-end-line="39" selection-end-column="76" />
             </state>
           </provider>
         </entry>
@@ -91,7 +92,6 @@
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/app/test.py" />
         <option value="$PROJECT_DIR$/app/app.py" />
-        <option value="$PROJECT_DIR$/cmd.sh" />
         <option value="$PROJECT_DIR$/jenkins/Dockerfile" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/identijenk/install-docker.sh" />
@@ -101,14 +101,14 @@
         <option value="$PROJECT_DIR$/identijenk/Dockerfile" />
         <option value="$PROJECT_DIR$/jenkins.yml" />
         <option value="$PROJECT_DIR$/Dockerfile" />
+        <option value="$PROJECT_DIR$/cmd.sh" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="215" />
-    <option name="y" value="39" />
-    <option name="width" value="1653" />
-    <option name="height" value="1032" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="782" />
+    <option name="width" value="1145" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -122,6 +122,11 @@
             <path>
               <item name="flask_docker" type="b2602c69:ProjectViewProjectNode" />
               <item name="flask_docker" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flask_docker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flask_docker" type="462c0819:PsiDirectoryNode" />
+              <item name="identijenk" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -175,7 +180,6 @@
       <deployment type="dockerfile">
         <settings>
           <option name="buildCliOptions" value="" />
-          <option name="buildOnly" value="true" />
           <option name="command" value="" />
           <option name="containerName" value="" />
           <option name="entrypoint" value="" />
@@ -276,12 +280,14 @@
       <workItem from="1574873669734" duration="863000" />
       <workItem from="1574952692572" duration="9962000" />
       <workItem from="1575008131797" duration="10708000" />
-      <workItem from="1575705614070" duration="8358000" />
+      <workItem from="1575705614070" duration="10647000" />
+      <workItem from="1575779275636" duration="707000" />
+      <workItem from="1575871672875" duration="3177000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69389000" />
+    <option name="totallyTimeSpent" value="75562000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -293,10 +299,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="215" y="39" width="1653" height="1032" extended-state="0" />
-    <editor active="true" />
+    <frame x="782" y="0" width="1145" height="1047" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15881984" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2829493" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -306,11 +311,11 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32932165" />
-      <window_info active="true" anchor="bottom" id="Docker" order="7" visible="true" weight="0.39420936" />
+      <window_info active="true" anchor="bottom" id="Docker" order="7" visible="true" weight="0.54764515" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.30846325" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.4611172" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.36105034" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -337,24 +342,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cmd.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/identijenk/install-docker.sh" />
-    <entry file="file://$PROJECT_DIR$/app/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/identijenk/plugins.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -369,16 +357,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
@@ -386,24 +364,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/identijenk/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/app/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+        <state relative-caret-position="720">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jenkins.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="72">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/identijenk/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="39" column="76" lean-forward="true" selection-start-line="39" selection-start-column="76" selection-end-line="39" selection-end-column="76" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="480">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
         </state>
       </provider>
     </entry>
