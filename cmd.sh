@@ -2,10 +2,10 @@
 set -e
 echo "hello in bash"
 
-if [[ "$ENV" = 'DEV' ]]; then
+if [ "$ENV" = 'DEV' ]; then
     echo "Running Development Server"
     exec python "app.py"
-elif [[ "$ENV" = 'UNIT' ]]; then
+elif [ "$ENV" = 'UNIT' ]; then
     echo "Running Unit Tests"
     exec python "test.py"
 else
