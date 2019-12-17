@@ -7,10 +7,8 @@ sudo docker-compose $COMPOSE_ARGS rm --force -v
 
 # build the system
 sudo docker-compose $COMPOSE_ARGS build --no-cache
-# disconnect and ignore error
-sudo docker network disconnect jenkins_default jenkins || true
-# connect
-sudo docker network connect jenkins_default jenkins
+# connect and ignore error
+sudo docker network connect jenkins_default jenkins || true
 sudo docker-compose $COMPOSE_ARGS up -d
 
 # Run unit tests
