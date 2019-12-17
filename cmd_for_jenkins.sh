@@ -7,11 +7,7 @@ sudo docker-compose $COMPOSE_ARGS rm --force -v
 
 # build the system
 sudo docker-compose $COMPOSE_ARGS build --no-cache
-<<<<<<< HEAD
-# connect
-=======
 # connect and ignore error
->>>>>>> 570cdb77fd90fb50f6b3de735818c81c258f16e9
 sudo docker network connect jenkins_default jenkins || true
 sudo docker-compose $COMPOSE_ARGS up -d
 
