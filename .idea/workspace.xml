@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fd8f100-8831-4252-885c-01d48eb05c1c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd_for_jenkins.sh" beforeDir="false" afterPath="$PROJECT_DIR$/cmd_for_jenkins.sh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,11 +36,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="192">
+              <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cmd_for_jenkins.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -95,14 +103,14 @@
         <option value="$PROJECT_DIR$/jenkins.yml" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/cmd.sh" />
-        <option value="$PROJECT_DIR$/cmd_for_jenkins.sh" />
         <option value="$PROJECT_DIR$/Dockerfile" />
+        <option value="$PROJECT_DIR$/cmd_for_jenkins.sh" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="625" />
-    <option name="y" value="28" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="292" />
+    <option name="y" value="72" />
     <option name="width" value="1576" />
     <option name="height" value="1032" />
   </component>
@@ -274,12 +282,12 @@
       <workItem from="1575705614070" duration="10647000" />
       <workItem from="1575779275636" duration="707000" />
       <workItem from="1575871672875" duration="8439000" />
-      <workItem from="1576567512858" duration="2875000" />
+      <workItem from="1576567512858" duration="3381000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83699000" />
+    <option name="totallyTimeSpent" value="84205000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -291,7 +299,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="625" y="28" width="1576" height="1032" extended-state="0" />
+    <frame x="292" y="72" width="1576" height="1032" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15633245" />
@@ -370,13 +378,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cmd_for_jenkins.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-240">
-          <caret line="5" column="47" lean-forward="true" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cmd.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -407,8 +408,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="192">
+          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd_for_jenkins.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
         </state>
       </provider>
     </entry>
