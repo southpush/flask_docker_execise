@@ -1,6 +1,7 @@
 # identijenk
 
 《Docker开发指南》p100-105的demo，修改了一些使用官方代码遇到的bug。
+
 在jenkins中执行的shell保存在 cmd_for_jenkins.sh 文件中。
 
 
