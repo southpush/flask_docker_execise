@@ -30,8 +30,6 @@
   2. 即使正确获取到容器IP，curl无法访问
     因为这时候jenkins容器和identidock容器并不在同一个容器网络中，需要手动连接
     ```
-    # disconnect and ignore error
-    sudo docker network disconnect jenkins_default jenkins || true
     # connect
-    sudo docker network connect jenkins_default jenkins
+    sudo docker network connect jenkins_default jenkins || true
     ```
